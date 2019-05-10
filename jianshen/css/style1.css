@@ -1,0 +1,11 @@
+﻿*{margin:0;padding:0;list-style: none;}
+
+/*客服样式*/
+#lanren{width:112px;position:fixed;right:-80px;top:50%;margin-top:-220px;z-index:999;}
+#lanren .kfleft{width:32px;height:168px;background:url(../images/kefu.png) no-repeat;cursor:pointer;float:left;}
+#lanren ul{width:80px;height:566px;background:url(../images/kefu1.png) no-repeat;float:left;}
+#lanren ul li a{width:80px;height:80px;display:block;margin-bottom:1px;background:#EEE;-moz-opacity:0.4;filter:alpha(opacity=40);opacity:0.4;}
+#lanren ul li a:hover{-moz-opacity:0;filter:alpha(opacity=0);opacity:0;transition:all 0.5s linear;-webkit-transition:all 0.5s linear;-moz-transition:all 0.5s linear;-o-transition:all 0.5s linear;}
+/*ie6*/
+*html{overflow:hidden;}
+*html #lanren{position:absolute;right:expression(eval(document.documentElement.scrollLeft))-80;top:expression(eval(document.documentElement.scrollTop))-283;}
